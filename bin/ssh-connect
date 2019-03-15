@@ -1,1 +1,4 @@
-_phab
+#!/bin/sh
+cmd=$(basename $0)
+exec docker-compose exec php /src/phabricator/bin/$cmd $*
+

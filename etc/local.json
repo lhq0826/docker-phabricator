@@ -1,9 +1,9 @@
 {
   "pygments.enabled": true,
   "storage.mysql-engine.max-size": 8388608,
-  "security.alternate-file-domain": "https://phab.example.com",
-  "phabricator.base-uri": "https://phab.example.com",
-  "mysql.host": "mysql",
+  "security.alternate-file-domain": "http://phab.example.com:8080",
+  "phabricator.base-uri": "http://phab.example.com:8080",
+  "mysql.host": "mysql2",
   "mysql.user": "root",
   "mysql.pass": "notsosecret"
 }

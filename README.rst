@@ -41,6 +41,8 @@ Quick start
     # your phabricator instance is now running on port 8080 and you can point
     # your ssl/reverse proxy on it.
 
+    # start daemons
+    ./bin/pha start
 
 Upgrades
 ========
